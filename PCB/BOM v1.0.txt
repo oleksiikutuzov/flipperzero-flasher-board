@@ -1,0 +1,19 @@
+Partlist exported from /var/folders/33/ch3jvwxj20q4dc1rxcvrc1bm0000gn/T/Neutron/ElectronFileOutput/53817/sch-77be259d-dd1d-4473-aec8-f9fe45a27142/Schematic v6.sch at 13.10.22 23:43
+
+Part Value                   Device                   Package             Description
+D1   LED_BLUE                CHIP-FLAT-B_0603-0.55MM  LEDC1608X55N_FLAT-B
+D2   LED_BLUE                CHIP-FLAT-B_0603-0.55MM  LEDC1608X55N_FLAT-B
+D3   LED_BLUE                CHIP-FLAT-B_0603-0.55MM  LEDC1608X55N_FLAT-B
+ESPF ESPFLASH-1X6-2.54-PLAIN ESPFLASH-1X6-2.54-PLAIN  1X6-2.54-PLAIN      ESPFlash
+JP1  PINHD-1X10/90           PINHD-1X10/90            1X10/90             PIN HEADER
+Q1   NPN                     NPN_SOT23-BEC            SOT95P237X112-3N    NPN - Generic
+Q2   NPN                     NPN_SOT23-BEC            SOT95P237X112-3N    NPN - Generic
+R1   470R                    R_CHIP-0603(1608-METRIC) RESC1608X60         Resistor Fixed - Generic
+R2   470R                    R_CHIP-0603(1608-METRIC) RESC1608X60         Resistor Fixed - Generic
+R3   12K                     R_CHIP-0603(1608-METRIC) RESC1608X60         Resistor Fixed - Generic
+R4   12K                     R_CHIP-0603(1608-METRIC) RESC1608X60         Resistor Fixed - Generic
+R5   1.5K                    R_CHIP-0603(1608-METRIC) RESC1608X60         Resistor Fixed - Generic
+R6   1.5K                    R_CHIP-0603(1608-METRIC) RESC1608X60         Resistor Fixed - Generic
+R7   4.7K                    R_CHIP-0603(1608-METRIC) RESC1608X60         Resistor Fixed - Generic
+SW1  MLL1200S                MLL1200S                 SW_MLL1200S         Switch Slide SPDT Side Slide 0.3A 4VDC Gull Wing SMD Box
+                                                                          https://a.aliexpress.com/_EyNVWSJ
