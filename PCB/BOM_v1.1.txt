@@ -1,0 +1,13 @@
+Partlist exported from /var/folders/tq/b2m_bkf11ld61j4hqq2g93cr0000gn/T/Neutron/ElectronFileOutput/14894/sch-362ab598-894d-49ed-90d1-658ffdb2f589/Schematic v7.sch at 27.10.22 18:26
+
+Part Value                   Device                   Package             Description                                              
+D1   LED_GREEN               CHIP-FLAT-B_0603-0.55MM  LEDC1608X55N_FLAT-B                                                          
+ESPF ESPFLASH-1X6-2.54-PLAIN ESPFLASH-1X6-2.54-PLAIN  1X6-2.54-PLAIN      ESPFlash                                                 
+JP1  PINHD-1X10/90           PINHD-1X10/90            1X10/90             PIN HEADER                                               
+Q1   NPN                     NPN_SOT23-BEC            SOT95P237X112-3N    NPN - Generic                                            
+Q2   NPN                     NPN_SOT23-BEC            SOT95P237X112-3N    NPN - Generic                                            
+R1   12K                     R_CHIP-0603(1608-METRIC) RESC1608X60         Resistor Fixed - Generic                                 
+R2   12K                     R_CHIP-0603(1608-METRIC) RESC1608X60         Resistor Fixed - Generic                                 
+R3   4.7K                    R_CHIP-0603(1608-METRIC) RESC1608X60         Resistor Fixed - Generic                                 
+SW1  MLL1200S                MLL1200S                 SW_MLL1200S         Switch Slide SPDT Side Slide 0.3A 4VDC Gull Wing SMD Box 
+                                                                          https://a.aliexpress.com/_EyNVWSJ

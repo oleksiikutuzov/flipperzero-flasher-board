@@ -2804,19 +2804,12 @@ ROHM : UMT3 ; EIAJ : SC-70</description>
 <part name="SUPPLY1" library="Power_Symbols" deviceset="GND" device="" value="GND"/>
 <part name="SUPPLY2" library="Power_Symbols" deviceset="GND" device="" value="GND"/>
 <part name="SUPPLY3" library="Power_Symbols" deviceset="GND" device="" value="GND"/>
-<part name="R1" library="Resistor" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/2" technology="_" value="470R"/>
-<part name="R2" library="Resistor" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/2" technology="_" value="470R"/>
-<part name="R3" library="Resistor" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/2" technology="_" value="12K"/>
+<part name="R1" library="Resistor" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/2" technology="_" value="12K"/>
 <part name="Q1" library="Transistor" deviceset="NPN" device="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:16378725/1" technology="_" value="NPN"/>
-<part name="R4" library="Resistor" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/2" technology="_" value="12K"/>
+<part name="R2" library="Resistor" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/2" technology="_" value="12K"/>
 <part name="Q2" library="Transistor" deviceset="NPN" device="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:16378725/1" technology="_" value="NPN"/>
-<part name="R5" library="Resistor" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/2" technology="_" value="1.5K"/>
-<part name="R6" library="Resistor" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/2" technology="_" value="1.5K"/>
-<part name="D1" library="LED" library_urn="urn:adsk.eagle:library:22900745" deviceset="CHIP-FLAT-B" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:24294782/1" value="LED_BLUE"/>
-<part name="D2" library="LED" library_urn="urn:adsk.eagle:library:22900745" deviceset="CHIP-FLAT-B" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:24294782/1" value="LED_BLUE"/>
-<part name="SUPPLY4" library="Power_Symbols" deviceset="GND" device="" value="GND"/>
-<part name="R7" library="Resistor" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/2" technology="_" value="4.7K"/>
-<part name="D3" library="LED" library_urn="urn:adsk.eagle:library:22900745" deviceset="CHIP-FLAT-B" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:24294782/1" value="LED_BLUE"/>
+<part name="R3" library="Resistor" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/2" technology="_" value="4.7K"/>
+<part name="D1" library="LED" library_urn="urn:adsk.eagle:library:22900745" deviceset="CHIP-FLAT-B" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:24294782/1" value="LED_GREEN"/>
 </parts>
 <sheets>
 <sheet>
@@ -2843,15 +2836,7 @@ ROHM : UMT3 ; EIAJ : SC-70</description>
 <instance part="SUPPLY3" gate="G$1" x="109.22" y="71.12" smashed="yes" rot="R180">
 <attribute name="VALUE" x="109.22" y="73.66" size="1.778" layer="96" rot="R180" align="center"/>
 </instance>
-<instance part="R1" gate="G$1" x="48.26" y="45.72" smashed="yes">
-<attribute name="NAME" x="53.34" y="48.26" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="48.26" y="48.26" size="1.778" layer="96" align="center"/>
-</instance>
-<instance part="R2" gate="G$1" x="48.26" y="43.18" smashed="yes">
-<attribute name="NAME" x="53.34" y="40.64" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="48.26" y="40.64" size="1.778" layer="96" align="center"/>
-</instance>
-<instance part="R3" gate="G$1" x="114.3" y="7.62" smashed="yes" grouprefs="DTR/RTS">
+<instance part="R1" gate="G$1" x="114.3" y="7.62" smashed="yes" grouprefs="DTR/RTS">
 <attribute name="NAME" x="114.3" y="5.08" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="114.3" y="10.16" size="1.778" layer="96" align="center"/>
 </instance>
@@ -2859,7 +2844,7 @@ ROHM : UMT3 ; EIAJ : SC-70</description>
 <attribute name="NAME" x="132.62" y="10.62" size="1.778" layer="95"/>
 <attribute name="VALUE" x="132.62" y="8.08" size="1.778" layer="96"/>
 </instance>
-<instance part="R4" gate="G$1" x="114.3" y="-12.7" smashed="yes" grouprefs="DTR/RTS">
+<instance part="R2" gate="G$1" x="114.3" y="-12.7" smashed="yes" grouprefs="DTR/RTS">
 <attribute name="NAME" x="114.3" y="-15.24" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="114.3" y="-10.16" size="1.778" layer="96" align="center"/>
 </instance>
@@ -2867,32 +2852,13 @@ ROHM : UMT3 ; EIAJ : SC-70</description>
 <attribute name="NAME" x="132.62" y="-9.7" size="1.778" layer="95"/>
 <attribute name="VALUE" x="132.62" y="-12.24" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="58.42" y="33.02" smashed="yes">
-<attribute name="NAME" x="58.42" y="30.48" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="58.42" y="35.56" size="1.778" layer="96" align="center"/>
-</instance>
-<instance part="R6" gate="G$1" x="58.42" y="25.4" smashed="yes">
-<attribute name="NAME" x="58.42" y="22.86" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="58.42" y="27.94" size="1.778" layer="96" align="center"/>
-</instance>
-<instance part="D1" gate="G$1" x="48.26" y="33.02" smashed="yes" rot="R270">
-<attribute name="NAME" x="51.308" y="30.48" size="1.778" layer="95" align="top-right"/>
-<attribute name="VALUE" x="44.196" y="30.226" size="1.778" layer="96" align="top-right"/>
-</instance>
-<instance part="D2" gate="G$1" x="48.26" y="25.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="51.054" y="22.352" size="1.778" layer="95" align="top-right"/>
-<attribute name="VALUE" x="44.196" y="22.352" size="1.778" layer="96" align="top-right"/>
-</instance>
-<instance part="SUPPLY4" gate="G$1" x="71.12" y="22.86" smashed="yes">
-<attribute name="VALUE" x="71.12" y="20.32" size="1.778" layer="96" align="center"/>
-</instance>
-<instance part="R7" gate="G$1" x="93.98" y="68.58" smashed="yes">
+<instance part="R3" gate="G$1" x="93.98" y="68.58" smashed="yes">
 <attribute name="NAME" x="93.98" y="66.04" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="93.98" y="71.12" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="D3" gate="G$1" x="83.82" y="68.58" smashed="yes" rot="R270">
-<attribute name="NAME" x="86.868" y="66.04" size="1.778" layer="95" align="top-right"/>
-<attribute name="VALUE" x="88.138" y="74.676" size="1.778" layer="96" align="top-right"/>
+<instance part="D1" gate="G$1" x="81.28" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="78.232" y="71.12" size="1.778" layer="95" rot="R180" align="top-right"/>
+<attribute name="VALUE" x="76.962" y="62.484" size="1.778" layer="96" rot="R180" align="top-right"/>
 </instance>
 </instances>
 <busses>
@@ -2918,17 +2884,9 @@ ROHM : UMT3 ; EIAJ : SC-70</description>
 <wire x1="104.14" y1="68.58" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="53.34" x2="106.68" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="ESPF" gate="G$1" pin="GND"/>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="68.58" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
 <junction x="104.14" y="68.58"/>
-</segment>
-<segment>
-<pinref part="SUPPLY4" gate="G$1" pin="GND"/>
-<wire x1="71.12" y1="25.4" x2="63.5" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="33.02" x2="63.5" y2="25.4" width="0.1524" layer="91"/>
-<junction x="63.5" y="25.4"/>
 </segment>
 </net>
 <net name="3.3V" class="1">
@@ -2950,41 +2908,39 @@ ROHM : UMT3 ; EIAJ : SC-70</description>
 <wire x1="88.9" y1="45.72" x2="106.68" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="ESPF" gate="G$1" pin="3.3V"/>
 <wire x1="76.2" y1="58.42" x2="76.2" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="68.58" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="C"/>
 <label x="93.98" y="45.72" size="1.778" layer="95"/>
 <junction x="76.2" y="58.42"/>
+<wire x1="76.2" y1="68.58" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="FLIPPER_TX" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="6"/>
-<wire x1="17.78" y1="45.72" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="45.72" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
 <label x="22.86" y="45.72" size="1.778" layer="95"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="38.1" y1="45.72" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="25.4" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="25.4" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
-<junction x="38.1" y="45.72"/>
+</segment>
+<segment>
+<pinref part="ESPF" gate="G$1" pin="ESP_RX"/>
+<wire x1="106.68" y1="48.26" x2="93.98" y2="48.26" width="0.1524" layer="91"/>
+<label x="93.98" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FLIPPER_RX" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="5"/>
-<wire x1="17.78" y1="43.18" x2="40.64" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="43.18" x2="43.18" y2="43.18" width="0.1524" layer="91"/>
 <label x="22.86" y="43.18" size="1.778" layer="95"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="40.64" y1="43.18" x2="43.18" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="33.02" x2="40.64" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="33.02" x2="40.64" y2="43.18" width="0.1524" layer="91"/>
-<junction x="40.64" y="43.18"/>
+</segment>
+<segment>
+<pinref part="ESPF" gate="G$1" pin="ESP_TX"/>
+<wire x1="106.68" y1="50.8" x2="93.98" y2="50.8" width="0.1524" layer="91"/>
+<label x="93.98" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RTS" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="-12.7" x2="101.6" y2="-12.7" width="0.1524" layer="91" grouprefs="DTR/RTS"/>
 <label x="88.9" y="-12.7" size="1.778" layer="95" grouprefs="DTR/RTS"/>
 <pinref part="Q1" gate="G$1" pin="E"/>
@@ -3002,7 +2958,7 @@ ROHM : UMT3 ; EIAJ : SC-70</description>
 </net>
 <net name="DTR" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="7.62" x2="99.06" y2="7.62" width="0.1524" layer="91" grouprefs="DTR/RTS"/>
 <wire x1="99.06" y1="7.62" x2="88.9" y2="7.62" width="0.1524" layer="91" grouprefs="DTR/RTS"/>
 <label x="88.9" y="7.62" size="1.778" layer="95" grouprefs="DTR/RTS"/>
@@ -3018,40 +2974,16 @@ ROHM : UMT3 ; EIAJ : SC-70</description>
 <label x="22.86" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ESP_RX" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="45.72" x2="58.42" y2="45.72" width="0.1524" layer="91"/>
-<label x="55.88" y="45.72" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="ESPF" gate="G$1" pin="ESP_RX"/>
-<wire x1="106.68" y1="48.26" x2="93.98" y2="48.26" width="0.1524" layer="91"/>
-<label x="93.98" y="48.26" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ESP_TX" class="0">
-<segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="43.18" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
-<label x="55.88" y="43.18" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="ESPF" gate="G$1" pin="ESP_TX"/>
-<wire x1="106.68" y1="50.8" x2="93.98" y2="50.8" width="0.1524" layer="91"/>
-<label x="93.98" y="50.8" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="7.62" x2="127" y2="7.62" width="0.1524" layer="91" grouprefs="DTR/RTS"/>
 <pinref part="Q1" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="-12.7" x2="127" y2="-12.7" width="0.1524" layer="91" grouprefs="DTR/RTS"/>
 <pinref part="Q2" gate="G$1" pin="B"/>
 </segment>
@@ -3082,25 +3014,11 @@ ROHM : UMT3 ; EIAJ : SC-70</description>
 <label x="142.24" y="-22.86" size="1.778" layer="95" grouprefs="DTR/RTS"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="N$1" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="33.02" x2="50.8" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="50.8" y1="25.4" x2="53.34" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="D3" gate="G$1" pin="A"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="86.36" y1="68.58" x2="88.9" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
