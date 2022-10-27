@@ -6,4 +6,4 @@ Since version 0.70.? (currently in dev) you can set RTS/DTR pins to pins 16/15 a
 
 I made this simple board to flash my ESP32 projects. It uses the [ESPFlash](https://github.com/SuperHouse/ESPFlash) pinout. Flasher has a switch to toggle 3.3V from Flipper Zero if you need to power the device you are flashing from an external power source.
 
-![](images/render-flipper.png)
+![](images/photo_2.jpg)
