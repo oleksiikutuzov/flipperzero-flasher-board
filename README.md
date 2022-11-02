@@ -1,6 +1,6 @@
 # flipperzero-flasher-board
 
-Since version 0.70.? (currently in dev) you can set RTS/DTR pins to pins 16/15 and use only one row of pins for this flasher board.
+Since version 0.70.1 you can set RTS/DTR pins to pins 16/15 and use only one row of pins for this flasher board.
 
 ![](images/render.png)
 
